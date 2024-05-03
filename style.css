@@ -5,23 +5,72 @@ body {
     background-position: center;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.brand {
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.brand> a> h1 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list> nav {
+    padding: 42px 0px;
+    color: #fff;
+}
+
+nav> a {
+    font-size: 18;
+    color: #fff;
+    padding: 0px 10px;
+}
+
 .hero>div>h1 {
     color: white;
     text-align: center;
     font-size: 48px;
     font-weight: bolder;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
 }
 
 .btn {
     text-align: center;
-    font-size: 22px;
+    font-size: 14px;
     text-transform: uppercase;
+    margin-top: 40px;
 }
+
+.btn1 {
+    background-color: #009688;
+    border-radius: 25px;
+    padding: 12px 30px;
+    color: #fff;
+}
+
+.btn2 {
+    border: 2px solid #009688;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+
